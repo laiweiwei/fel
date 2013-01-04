@@ -1,0 +1,15 @@
+package com.greenpineyu.fel.compile;
+
+import com.greenpineyu.fel.common.*;
+import com.greenpineyu.fel.Expression;
+import com.greenpineyu.fel.context.*;
+//import org.apache.commons.lang3.ObjectUtils;
+//import org.apache.commons.lang3.StringUtils;
+
+public class ${classname}  implements Expression{
+    ${attrs}
+    public Object eval(FelContext context) {
+        ${localVars}
+        return ${expression};
+    }
+}
